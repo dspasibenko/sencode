@@ -181,6 +181,24 @@ Run non-unit-tests suites like integration, load, regression etc. against an env
 
 Unit-testing is a part of delivering an executable or a source code to be ready to execute. Other tests should be run against the environments where the executables or the source code run.
 
+## §28. Design of the process of product delivery 
+Unit-testing is a part of delivering an executable or a source code to be ready to execute. Other tests should be run against the environments where the executables or the source code run.
+
+Product delivery is a system that should be designed and expressed in any human-readable form to understand its structure. It has its own abstractions and procedures (pipelines) running over the abstractions. 
+
+To deliver a software product to production for use by customers multiple things should be done - the source code should be written, an executable artifact should be delivered (built from the source code) and its components should be tested on its correctness (unit-tested). Then the delivered artifacts should be tested that they work together as expected (integration tests), the functionality satisfies customer requirements and needs (regression, load and functional tests are run). The tested executables can form the product that can be delivered, but the procedures should be described and scheduled with taking into account the things like - service interruptions, migrations, roll-back procedure etc. 
+
+Like any other system, the product delivery can be designed and it consists of some abstract objects like - source code, executable artifacts, release candidates, tests suites etc. And some procedures applied to the objects, or pipelines like - actions done to deliver an executable, what should be done to test the executables, how the executable goes to production etc. 
+
+Find a way by describing the abstractions and formalize pipelines to design your product delivery system for your business area. Describe requirements for every step and expected work-flows. 
+
+## §29. Automate executable environment creation.
+Automate creating an environment for running your product.
+
+Either you need to test your product locally, run it on different operating systems or with different dependencies, write the automation script, which checks and satisfies the dependencies to create the execution environment. This automation script will be the source of the environment design required to run your product. 
+
+Using multiple scripts, or different scripts for different conditions is an error prone approach. Having a manual process for running product locally, and different scripts for testing and production will produce different dependencies and conditions of running your code.  
+
 
 
 
