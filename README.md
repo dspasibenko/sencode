@@ -1,4 +1,4 @@
-# Software Engineering Code
+# Software Engineering Code.
 Software Engineering is the systematic application of engineering approaches to the development of software. Thousands of books are written about programming, management, practices and other things. There are engineering organizations that could use some healthy principles for building the organizations, but it is not easy to find the engineering approaches in a written form. 
 
 The project reflects some ideas and conclusions the author came or tested during his experience of working on different software projects. With years, it became obvious that thoughts should be written for 2 reasons - I will not keep forgetting them and some people could find them interesting to apply for the software development or using the practices in the engineering organization.
@@ -100,7 +100,7 @@ Writing good quality application logs is a challenge.
 
 Due to the informality of the process it is hard to test or formally check the application logs. Practice to write application log messages and always read the application log for test-runs and test-cases to reveal the quality of the application log messages.
 
-## §14. Stack trace in the application logs
+## §14. Stack trace in the application logs.
 Stack trace for a use-case should be printed once in the application logs. 
 
 Use the rule: print the stack trace in the final point where an exception or the error is finally handled and no further actions will be done to the exceptional case. Do not print the stack trace in the application log in the middle of the process of handling the exceptional case or an error.
@@ -141,7 +141,7 @@ Source code should be delivered in a way that any independent piece (component) 
 
 By “delivered” in the context it means that the source code is written and tested via unit-tests.
 
-## §21. Incremental small and concise changes
+## §21. Incremental small and concise changes.
 Source code of any system should be written by adding small, but complete changes. The good pace is to add any component to the source code base as soon as the component is ready (from several hours up to 2 days).
 
 The errorprone approach is to attempt delivering a feature by one shot. Avoid keeping the new source code detached from the common codebase. Trying to test the more complex functionality without testing its components independently first will be followed by a longer development/debug cycle. 
@@ -161,7 +161,7 @@ It means the following:
 
 The source code can contain some components for not-ready feature yet. These components can simply be not exposed to the user, but the source code most probably will contain such code all the time. 
 
-## §24. Distinguish unit- and other types of tests (integration, load etc.)
+## §24. Distinguish unit- and other types of tests (integration, load etc.).
 Unit tests are parts of the source code, they must be delivered together with the tested components.
 
 The unit tests don’t need special setups, environments or external dependencies. 
@@ -176,12 +176,12 @@ The running unit-test cycle should take from several seconds up to several minut
 
 The unit-tests run cycle should take minutes in very rare exceptional cases. 
 
-## §27. Non-unit tests are running against an environment
+## §27. Non-unit tests are running against an environment.
 Run non-unit-tests suites like integration, load, regression etc. against an environment where the executables are deployed.
 
 Unit-testing is a part of delivering an executable or a source code to be ready to execute. Other tests should be run against the environments where the executables or the source code run.
 
-## §28. Design of the process of product delivery 
+## §28. Design of the process of product delivery.
 Unit-testing is a part of delivering an executable or a source code to be ready to execute. Other tests should be run against the environments where the executables or the source code run.
 
 Product delivery is a system that should be designed and expressed in any human-readable form to understand its structure. It has its own abstractions and procedures (pipelines) running over the abstractions. 
@@ -199,7 +199,12 @@ Either you need to test your product locally, run it on different operating syst
 
 Using multiple scripts, or different scripts for different conditions is an error prone approach. Having a manual process for running product locally, and different scripts for testing and production will produce different dependencies and conditions of running your code.  
 
+## §30. Acceptance rule.
+The person who has a problem or question should accept the resolution.
 
+The rule is not 100% true, but in the majority of the cases it helps to establish the roles. For example, in a google doc people can raise questions in the form of comments. The comments can be resolved after some discussion. The rule says - the person who raises the comment has to resolve the conversation (literally click the button “resolve the conversation”).
+
+Another example could be a ticket submitted to fix a defect in the ticket control system (JIRA for example). The rule says - the person who submits the ticket should accept the ticket resolution and close it. 
 
 
 
