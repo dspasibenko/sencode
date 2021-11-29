@@ -204,6 +204,10 @@ The person who has a problem or question should accept the resolution.
 
 The rule is not 100% true, but in the majority of the cases it helps to establish the roles. For example, in a google doc people can raise questions in the form of comments. The comments can be resolved after some discussion. The rule says - the person who raises the comment has to resolve the conversation (literally click the button “resolve the conversation”).
 
+### §30.1 A code change responsibility.
+The author of the change is responsible for the change and its delivery.
+
+For example, the code reviewers are responsible for review the change and its approval, but the author is responsible to submit and bring the changes into the main code base. In other words, nobody else, but the author of the change is responsible for the change merge.
 Another example could be a ticket submitted to fix a defect in the ticket control system (JIRA for example). The rule says - the person who submits the ticket should accept the ticket resolution and close it. 
 
 
