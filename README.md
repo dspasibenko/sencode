@@ -210,6 +210,37 @@ The author of the change is responsible for the change and its delivery.
 For example, the code reviewers are responsible for review the change and its approval, but the author is responsible to submit and bring the changes into the main code base. In other words, nobody else, but the author of the change is responsible for the change merge.
 Another example could be a ticket submitted to fix a defect in the ticket control system (JIRA for example). The rule says - the person who submits the ticket should accept the ticket resolution and close it. 
 
+## §31. System capabilities.
+Define and declare your system capabilities.
+
+On a component level a developer can define some characteristics like the algorithm complexity and memory/resources complexity. On a functional module level a developer can define the limitations in appropriate units for the module e.g. expected number of queries per second, the latency. On an application level there are some core metrics that indicate the application status and its performance etc. 
+
+### §31.1 Measure and report the production system capabilities.
+A system in production should report its core metrics. 
+
+Build a dashboard or any real-time report which shows the status of your systems, components and applications on different levels. Make the dashboard be easily accessible to everyone who monitors and is involved in the production support. 
+
+
+## §32. Application metrics in production.
+Developers of the application are responsible for the metrics collected for the application.
+
+A couple decades ago developers were responsible for writing the source code, which was normally tested by other people, who considered the system as a black box QA organization. Today’s standard is that the developers are responsible not only for writing the source code, but they also have to cover the source code by unit-tests. But developers very often are involved in the resolution of production issues, where for the monitoring of the application are often responsible other people - technical operations personnel, dev-ops etc. - the people who normally don’t know about the application implementation. It is not uncommon, that when a production issue happens a developer, who is awakened by a pager-duty call, has zero ideas what did happen and why. The developers don’t own what is reported on the monitoring dashboards and why the metric is there.
+
+The principle says - developers should be responsible for the source code development, the unit-tests for the source code and for metrics reported on the production dashboards for the application. The developers should define what kind of metrics should be collected to help them to resolve production questions easily. Defining the monitoring and supporting it  in a relevant state should be under the source code developers responsibility. 
+
+## §33. Interface and Implementation.
+Explicitly separate interfaces of the software components from their implementation.s
+
+Every software component has an interface even if it is not declared explicitly. Because the implementation of the component can be changed more often than its interface, declare the interface and put dependencies on the interface instead of the implementation. Describe the interface and its contract in a form of the component documentations either as a part of the source code or as a documentation to you programing components. 
+
+For example, public functions can describe the input and output parameters and what the function does. Document publicly defined functions describing corner case scenarios and exceptional cases. For classes, modules and components define the abstraction with the contract and put dependencies on the abstractions, but not onto their implementations. Any application, also has the interface it supports and the set of agreements, explain and describe them in the application documentation etc. 
+
+### §33.1 Dependencies on the interface.
+Any external components should depend (use) on other component interfaces, but not their implementations.
+
+If your code invokes a function, it should rely on the contract the function supports, but not how the function is implemented. For example, a sort function can be implemented with the different algorithms, but the contract is the same - order a collection of elements. 
+
+Another example is an application API, which actually describes the interface of the application and the contract of the functionality the application supports. Put dependencies on the API, but not on the internals of the application. Never rely on some details that are not explicitly described by the API. Implement the contract and rely on it.
 
 
 
