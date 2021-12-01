@@ -242,6 +242,12 @@ If your code invokes a function, it should rely on the contract the function sup
 
 Another example is an application API, which actually describes the interface of the application and the contract of the functionality the application supports. Put dependencies on the API, but not on the internals of the application. Never rely on some details that are not explicitly described by the API. Implement the contract and rely on it.
 
+### §33.2 API is an interface.
+An API is nothing more than an interface to an application.
+
+Despite the API acronym being Application Program Interface, some people tend to mistificate the importance of API and its role in software development. As it said before an API is just an interface to an application. Any software component on different levels tends to have an interface and its implementation. The API is nothing but the interface to the application implementation. 
+
+Don’t confuse a protocol which allows the API with the API itself, because API is a contract and in general it doesn’t matter which protocol implements the API - HTTP, gRPC etc.
 
 
 
