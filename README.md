@@ -249,7 +249,20 @@ Despite the API acronym being Application Program Interface, some people tend to
 
 Don’t confuse a protocol which allows the API with the API itself, because API is a contract and in general it doesn’t matter which protocol implements the API - HTTP, gRPC etc.
 
+## §34. SW Engineers paradox.
+Engineers with the same cognitive skills have different delivery speeds. 
 
+This phenomenon is often underestimated and causes misunderstandings and confusion. The reality is that different people can deliver quality source code with dramatically different speeds. The speeds can be different by hundreds of percentages. The software development paradox here is that the planning of deliverables cannot be estimated by statistics based on the speed of a myphical programmer, but it should take into account the performance of each individual who is involved in the delivery process.
+
+The problem here is that during planning software development managers tend to use techniques similar to performing physical jobs like digging trenches. There an average adult is able to perform a job for X hours and the difference will be probably +/- 30%. This is not true for software development where different engineers are able to deliver the source code with the time difference of hundreds percentages (+/- 500+%). What can deliver engineer A for X hours, can be delivered by engineer B for 5X hours. And it is the norm in the industry.
+
+## §35. YAGNI for the source code.
+Do not add functionality until deemed necessary, but improve the code maintainability with any change.
+
+Always implement things when you actually need them, never when you just foresee that you need them, but strive to improve the code maintainability with any change. The original YAGNI principle is often misinterpreted and it turns out that people start to minimize changes in the source code disregarding its maintainability. Yes, deliver only what is needed, but with the necessary amount of the changes that doesn’t affect the code maintainability. This literally means that if only one line of the code must be changed, but it will affect the source code, so another 100 lines to make the code more friendly for the future changes - make the 101 lines change.
+
+## §36. YAGNI for other things.
+Change something  to address a real problem, but not just for good things.
 
 
 
