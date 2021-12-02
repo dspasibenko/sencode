@@ -3,7 +3,7 @@ Software Engineering is the systematic application of engineering approaches to 
 
 The project reflects some ideas and conclusions the author came or tested during his experience of working on different software projects. With years, it became obvious that thoughts should be written for 2 reasons - I will not keep forgetting them and some people could find them interesting to apply for the software development or using the practices in the engineering organization.
 
-The project consists of paragraphs of thoughts, principles and some practices. The intention is to have each paragraph bring one concise idea. Not all of them relate to software development only, but they were found to be useful there as well. 
+The project consists of paragraphs of thoughts, principles and some practices. The intention is to have each paragraph bringing one concise idea. Not all of them relate to software development only, but they were found to be useful there as well.
 
 ## §1. The quality of a source code.
 The source code should be maintainable: the good source code is friendly for changes, and can be changed easily for either bug fixing, introducing new functionalities or making some improvements. 
