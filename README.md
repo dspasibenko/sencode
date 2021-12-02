@@ -259,7 +259,7 @@ The problem here is that during planning software development managers tend to u
 ## §35. YAGNI for the source code.
 Do not add functionality until deemed necessary, but improve the code maintainability with any change.
 
-Always implement things when you actually need them, never when you just foresee that you need them, but strive to improve the code maintainability with any change. The original YAGNI principle is often misinterpreted and it turns out that people start to minimize changes in the source code disregarding its maintainability. Yes, deliver only what is needed, but with the necessary amount of the changes that doesn’t affect the code maintainability. This literally means that if only one line of the code must be changed, but it will affect the source code, so another 100 lines to make the code more friendly for the future changes - make the 101 lines change.
+Always implement things when you actually need them, never when you just foresee that you need them, but strive to improve the code maintainability with any change. The original YAGNI (You aren’t gonna need it) principle is often misinterpreted and it turns out that people start to minimize changes in the source code disregarding its maintainability. Yes, deliver only what is needed, but with the necessary amount of the changes that doesn’t affect the code maintainability. This literally means that if only one line of the code must be changed, but it will affect the source code, so another 100 lines to make the code more friendly for the future changes - make the 101 lines change.
 
 ## §36. YAGNI for other things.
 Change something  to address a real problem, but not just for good things.
