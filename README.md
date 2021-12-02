@@ -264,7 +264,24 @@ Always implement things when you actually need them, never when you just foresee
 ## §36. YAGNI for other things.
 Change something  to address a real problem, but not just for good things.
 
+### §36.1 Don’t use Story Points if you don’t need them.
+Story Point is a unit  for estimating velocity of a team by delivering similar tasks. Story points is not a universal tool for planning software projects, so if you don’t have a certain problem which can be resolved by introducing this type of estimates, don’t push the team to provide estimates in story points.  
 
+## §37. Eliminating performance review mystery.
+If the performance review should take place it is good if there is no cycle, but the performance can be assessed on every day, but not once per a quarter, half-, one-year etc. 
 
+Some engineering organizations try to incorporate a performance review with the goal to assess performance of their employee once per quarter, half- or one-year. The following typical problems take place in such kind of environments:
+Employees often are not communicated properly, so they don’t clearly understand what exactly and how will affect the final score. They can apply a lot of effort to have a good score, but surprisingly can receive a bad one at the end of the cycle.
+The employees try to hack the system and their goal now is to have a good performance review which could be not related directly to the company goals. 
 
+To avoid these kinds of problems it proposes to find a way how the performance of any engineer can be assessed instantly at any moment. If any engineer could clearly understand how a single task contributes to their performance, they can see a path to succeed. Make the performance metric clear to engineers. Performance should be a continuous function, but not points taken once per cycle. Forming a clear guidance for the performance function trends and measuring the performance based on day-to-day activity will allow to eliminate the stress, uncertainty and false goals. Build the process where every engineer understands their score at any particular moment.
 
+## §38. Nothing is done in spare time.
+Any activity should be planned and nothing has 0 cost. 
+
+Nothing comes from nowhere, so the needed information costs something. Planning and prioritization of the tasks and engineering activities helps to sort things out and don’t waste time on unnecessary or less important actions.
+
+## §39. Build a backlog of engineering tasks.
+Record all tasks in a backlog and keep it prioritized.
+
+Having a backlog of tasks allows the engineering teams to see the scope and pick the most important task from the backlog as soon as they are ready to work on the next one. 
