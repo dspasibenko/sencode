@@ -285,3 +285,10 @@ Nothing comes from nowhere, so the needed information costs something. Planning 
 Record all tasks in a backlog and keep it prioritized.
 
 Having a backlog of tasks allows the engineering teams to see the scope and pick the most important task from the backlog as soon as they are ready to work on the next one. 
+
+## §40. Product engineering transparency.
+Technical and organizational parts of a product development should be transparent and easy to understand. 
+
+This is a very important general principle which means that any aspect of a software product development should be easily learned by newcomers without significant efforts. It is common in software development organizations that a person or a group of persons have secret knowledge which is distributed by word of mouth. Very often somebody who is new to the system is told - “I recommend you talk to Jack, he is the best source of knowledge about this”. Avoid it. This knowledge is not scaled and the situation is favorable to create local, sometimes not scalable, solutions.
+
+Build an organization, where new members can easily gain product knowledge with minimum mentoring, special meetings, talks with gurus etc.
