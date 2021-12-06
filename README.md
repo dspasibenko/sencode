@@ -229,7 +229,7 @@ A couple decades ago developers were responsible for writing the source code, wh
 The principle says - developers should be responsible for the source code development, the unit-tests for the source code and for metrics reported on the production dashboards for the application. The developers should define what kind of metrics should be collected to help them to resolve production questions easily. Defining the monitoring and supporting it  in a relevant state should be under the source code developers responsibility. 
 
 ## §33. Interface and Implementation.
-Explicitly separate interfaces of the software components from their implementation.s
+Explicitly separate interfaces of the software components from their implementation.
 
 Every software component has an interface even if it is not declared explicitly. Because the implementation of the component can be changed more often than its interface, declare the interface and put dependencies on the interface instead of the implementation. Describe the interface and its contract in a form of the component documentations either as a part of the source code or as a documentation to you programing components. 
 
@@ -250,9 +250,9 @@ Despite the API acronym being Application Program Interface, some people tend to
 Don’t confuse a protocol which allows the API with the API itself, because API is a contract and in general it doesn’t matter which protocol implements the API - HTTP, gRPC etc.
 
 ## §34. SW Engineers paradox.
-Engineers with the same cognitive skills have different delivery speeds. 
+Engineers with the same cognitive skills have different delivery velocities. 
 
-This phenomenon is often underestimated and causes misunderstandings and confusion. The reality is that different people can deliver quality source code with dramatically different speeds. The speeds can be different by hundreds of percentages. The software development paradox here is that the planning of deliverables cannot be estimated by statistics based on the speed of a myphical programmer, but it should take into account the performance of each individual who is involved in the delivery process.
+This phenomenon is often underestimated and it causes misunderstandings and confusion. The reality is that different people can deliver quality source code with dramatically different speeds. The speeds can be different by hundreds of percentages. The software development paradox here is that the planning of deliverables cannot be estimated by statistics based on the speed of a myphical programmer, but it should take into account the performance of each individual who is involved in the delivery process.
 
 The problem here is that during planning software development managers tend to use techniques similar to performing physical jobs like digging trenches. There an average adult is able to perform a job for X hours and the difference will be probably +/- 30%. This is not true for software development where different engineers are able to deliver the source code with the time difference of hundreds percentages (+/- 500+%). What can deliver engineer A for X hours, can be delivered by engineer B for 5X hours. And it is the norm in the industry.
 
