@@ -295,4 +295,4 @@ This is a very important general principle which means that any aspect of a soft
 Build an organization, where new members can easily gain product knowledge with minimum mentoring, special meetings, talks with gurus etc.
 
 ---
-This work is licensed under a Creative Commons Attribution 4.0 International License. <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
+This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
