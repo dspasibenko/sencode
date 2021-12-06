@@ -1,4 +1,5 @@
 # Software Engineering Code
+
 Software Engineering is the systematic application of engineering approaches to the development of software. Thousands of books are written about programming, management, practices and other things. There are engineering organizations that could use some healthy principles for building the organizations, but it is not easy to find the engineering approaches in a written form. 
 
 The project reflects some ideas and conclusions the author came or tested during his experience of working on different software projects. With years, it became obvious that thoughts should be written for 2 reasons - I will not keep forgetting them and some people could find them interesting to apply for the software development or using the practices in the engineering organization.
@@ -292,3 +293,6 @@ Technical and organizational parts of a product development should be transparen
 This is a very important general principle which means that any aspect of a software product development should be easily learned by newcomers without significant efforts. It is common in software development organizations that a person or a group of persons have secret knowledge which is distributed by word of mouth. Very often somebody who is new to the system is told - “I recommend you talk to Jack, he is the best source of knowledge about this”. Avoid it. This knowledge is not scaled and the situation is favorable to create local, sometimes not scalable, solutions.
 
 Build an organization, where new members can easily gain product knowledge with minimum mentoring, special meetings, talks with gurus etc.
+
+---
+This work is licensed under a Creative Commons Attribution 4.0 International License. <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
