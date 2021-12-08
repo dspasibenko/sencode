@@ -167,7 +167,7 @@ Unit tests are parts of the source code, they must be delivered together with th
 
 The unit tests don’t need special setups, environments or external dependencies. 
 
-If for testing some special functionality an external component is needed and the functionality can be substituted by a mock object, most probably it is an integration test.
+If for testing some special functionality an external component is needed and the functionality can't be substituted by a mock object, most probably it is an integration test.
 
 ## §25. Unit-testing is a part of the delivery process
 For compilable languages the running unit test cycle should be a part of delivering the executable file - compilation and linking. For interpreted language the running unit-test suite can be the part of the source code delivery for executing in an environement.
