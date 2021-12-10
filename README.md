@@ -294,5 +294,60 @@ This is a very important general principle which means that any aspect of a soft
 
 Build an organization, where new members can easily gain product knowledge with minimum mentoring, special meetings, talks with gurus etc.
 
+## §41. Requirements come first
+Requirements come first and the solution is created to satisfy the requirements. 
+
+### §41.1 Avoid the situation when existing solutions affect the initial requirements
+The existing tool should not affect the initial requirements. If the tool doesn’t allow you to satisfy the requirements, look for another tool/solution. 
+
+It is very common when the product is built by a set of available tools, so the tools dictate the requirements of the product. This is not healthy because instead of satisfying the product requirements the solution sticks to the ability of the tools to do something, but not what is initially needed. It could be ok for a POC (proof of concept), but it is not going to work in the long term, because instead of searching for the solution, the solution is dictated by the set of available tools. In most cases this approach is not scalable and it follows the hard maintainability of the system.
+
+### §41.2. A tool hype
+The popularity of a tool, doesn’t mean that it should be used to satisfy requirements of your product.
+
+It is common when organizations try to use some technology or a product just because of its popularity on the market. Avoid it. It increases a toil and it knocks out the focus on the result.
+
+### §41.3. A tool is just an implementation
+Every third party tool used in the product is just a part of the implementation.
+
+It means that your solution should not stick to a tool, but to an abstract model for the solution. Always build the abstract model for your design and use tools just for the implementation of the model. Don’t stick to the 3rd party tools, they are just a part of your solution, which you have to be able to substitute by other tools if needed. 
+
+## §42. Leave the source in a better state than it was before your change
+Every code change should improve the code maintainability. 
+
+Because code maintainability is a core characteristic of the code quality, always try to improve the source code maintainability together with any change made in the source code. 
+
+### §42.1. Avoid technical debt as much as possible
+Try to avoid implementing temporary solutions that must be fixed later in “proper” way. 
+
+Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer. Some solutions seem to be attractive because of the delivery time, but they can increase the technical debt. The problem with the technical debt is it  is not repaid. This means that as more patches and not-well solutions are used, that more time will be needed in the future to refix them to improve the system maintainability. 
+
+Another problem with the technical debt is an avalanche effect. The technical debt can dramatically affect the system maintainability which causes very hard and long changes. The bug that normally should be fixed for an hour or two can take weeks to be fixed because of poor code maintainability, which at the point doesn’t improve the system, but just increases technical debt itself. 
+
+## §43. System extensibility rule
+Third party tools decrease the system extensibility.
+
+Using 3rd party tools allows to reduce delivery time, but it affects the product extensibility because the tools can limit the solution to be extended to meet future requirements.
+
+## §44. Big problems are caused by small fraction of source code
+Small fraction of the source code causes most product problems.
+
+Finding and re-implementing the weak piece or component of the source code can improve the situation dramatically.
+
+## §45. Customers will use your product an unexpected way
+Be prepared that your product will be used in a not planned straight-forward way.
+
+### §45.1. Corner cases always happen
+If the corner cases are not tested by you, they will be tested by the product customers.
+
+### §45.2. Customers will reveal the product use-cases you never thought of
+Customers will reveal the product use-cases you never thought of.
+
+The Hyrum's Law (The Law of Implicit Interfaces) states that with a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviours of your system will be depended on by somebody. It means that when you have a large enough number of consumers of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. 
+
+We often observe the situation of adopting some products by users of a market, but the products were initially targeting another market. For example Elasticsearch, which was initially targeted as a full-text search database widely adopted as an application log storage solution.
+
+This is one of the examples when the changes in the API can be caused by adoption of the software, which can cause an evolutionary change of the interface contract with better satisfaction of the discovered use-cases.  
+
 ---
 This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
