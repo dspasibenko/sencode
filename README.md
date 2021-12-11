@@ -347,7 +347,12 @@ The Hyrum's Law (The Law of Implicit Interfaces) states that with a sufficient n
 
 We often observe the situation of adopting some products by users of a market, but the products were initially targeting another market. For example Elasticsearch, which was initially targeted as a full-text search database widely adopted as an application log storage solution.
 
-This is one of the examples when the changes in the API can be caused by adoption of the software, which can cause an evolutionary change of the interface contract with better satisfaction of the discovered use-cases.  
+This is one of the examples when the changes in the API can be caused by adoption of the software, which can cause an evolutionary change of the interface contract with better satisfaction of the discovered use-cases.
+
+## §46. Rules enforcements
+Asking to obey rules doesn’t work in common. Asking to fix according to what the rules need works. 
+
+For example, If a source code should be written according to a style, just have the style written, so everybody can read it. In case a source code change violates the style, the reviewer doesn’t approve the commit until the code will be written according to the style. The reviewer can refer to the style and the author always have a chance to read it through to comply next time.
 
 ---
 This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
