@@ -2,9 +2,25 @@
 
 Software Engineering is the systematic application of engineering approaches to the development of software. Thousands of books are written about programming, management, practices and other things. There are engineering organizations that could use some healthy principles for building the organizations, but it is not easy to find the engineering approaches in a written form. 
 
-The project reflects some ideas and conclusions the author came or tested during his experience of working on different software projects. With years, it became obvious that thoughts should be written for 2 reasons - I will not keep forgetting them and some people could find them interesting to apply for the software development or using the practices in the engineering organization.
+This project started from recording some ideas and conclusions the author came or tested during his experience of working on different software projects. With years, it became obvious that thoughts should be written for 2 reasons - I will not keep forgetting them and some people could find them interesting to apply for the software development or using the practices in the engineering organization.
 
-The project consists of paragraphs of thoughts, principles and some practices. The intention is to have each paragraph bringing one concise idea. Not all of them relate to software development only, but they were found to be useful there as well.
+The project consists of articles/paragraphs of thoughts, principles and some practices. The intention is to have each article brings one concise idea. Not all of them relate to software development only, but they were found to be useful there as well. 
+
+## Questions
+### How can I use the document?
+Read it from start to end or partially and think about the statements. If you find it useful you can discuss it with your team members to use it practically. It is better than nothing to have it recorded, at least if you agree with a statement you can always refer to the pargraph number as an argument in a dialog with somebody...
+
+### How do you want the rules to be enforced?
+This is not the rules. Rules must be enforced and they suppose that somebody controls their execution. These paragraphs are written with the goal to initiate a thinking process for establishing some practices. You can follow them if you like and establish a process to obey some of them, but it is not a matter of the document.
+
+### The paragraphs have much text and hard to read.
+I am sorry about it. The first paragraphs of each article contains the idea. All the rests are for the clarification purposes only. 
+
+### I got the idea, can I contribute?
+Sure you can. Feel free to create a PR with the change and we will discuss it. The list of the contributors will be in [this file.](AUTHORS.md)
+
+### I have some arguments, how I can tell you about them?
+Open a PR or an issue and let's exchange by opinions there. 
 
 ## §1. The quality of a source code
 The source code should be maintainable: the good source code is friendly for changes, and can be changed easily for either bug fixing, introducing new functionalities or making some improvements. 
