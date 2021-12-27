@@ -370,5 +370,23 @@ Asking to obey rules doesn’t work in common. Asking to fix according to what t
 
 For example, If a source code should be written according to a style, just have the style written, so everybody can read it. In case a source code change violates the style, the reviewer doesn’t approve the commit until the code will be written according to the style. The reviewer can refer to the style and the author always have a chance to read it through to comply next time.
 
+## §47. A group is smarter than each member of the group
+A group is no dumber than every member of the group.
+
+Every group member contributes their wisdom to the collective mind. 
+
+### §47.1 Collecting feedback ASAP
+Collecting feedback can help to build a better vision to a problem or its solution.
+
+Someone, who works on a problem or a solution can become a hostage of looped thinking or produce a tunnel vision for the solution. Collecting feedback and second opinions can help dramatically to find a better way or help to take another view to the problem, which was not considered initially.
+
+### §47.2 Unnecessary secrecy causes poor solutions
+Secrecy doesn’t contribute to better solutions, but develops a tunnel vision and shrinking the space of possible solutions.
+
+### §47.3. Linus Law
+Given enough eyeballs, all bugs are shallow.
+
+This law simply states that the more people who can see a problem, the higher the likelihood that someone will have seen and solved the problem before, or something very similar.
+
 ---
 This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
