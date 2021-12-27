@@ -388,5 +388,14 @@ Given enough eyeballs, all bugs are shallow.
 
 This law simply states that the more people who can see a problem, the higher the likelihood that someone will have seen and solved the problem before, or something very similar.
 
+## §48. Unclear decision making process indicates the avoiding responsibility
+If the decision making process is not clear or there is no individual who makes decisions the avoiding of responsibility takes place. 
+ 
+A decision can be made by an individual person, or by a group of individuals via a voting process. Either way the individual or a group of the individual shares their responsibilities for the decision. If there is no such individual or the group doesn’t have the process established and documented the avoiding responsibility takes place. 
+ 
+Avoiding responsibility is not healthy because it encourages not owning mistakes by not being accountable for our flaws. There is a real danger that we will not learn from them and will make the very same mistakes over and over again. Even worse, a wrong self-conception can be adopted by lying to themself and, thus, will not give people room to improve and grow. By removing ourselves from a potential role in the problem we also remove ourselves from creating a potential solution. That, in turn, will take from us the satisfaction and joy to solve problems ourselves and overcome hurdles.
+ 
+In short - avoiding responsibility is a demotivator.
+
 ---
 This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="drawing" width="88"/>
