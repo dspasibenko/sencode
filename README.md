@@ -328,7 +328,12 @@ Every third party tool used in the product is just a part of the implementation.
 
 It means that your solution should not stick to a tool, but to an abstract model for the solution. Always build the abstract model for your design and use tools just for the implementation of the model. Don’t stick to the 3rd party tools, they are just a part of your solution, which you have to be able to substitute by other tools if needed. 
 
-## §42. Leave the source in a better state than it was before your change
+### §41.4. Architecture comes before a technology
+Work on the architecture first, then choose a technology to implement it.
+
+If a technology comes first, it will always affect initial requirements and shrink an ability to implement them. First things first - design the system to satisfy the requirements, then select a technology for the implementation.
+
+## §42. Leave the source code in a better state than it was before your change
 Every code change should improve the code maintainability. 
 
 Because code maintainability is a core characteristic of the code quality, always try to improve the source code maintainability together with any change made in the source code. 
