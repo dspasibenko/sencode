@@ -288,10 +288,15 @@ Story Point is a unit  for estimating velocity of a team by delivering similar t
 If the performance review should take place it is good if there is no cycle, but the performance can be assessed on every day, but not once per a quarter, half-, one-year etc. 
 
 Some engineering organizations try to incorporate a performance review with the goal to assess performance of their employee once per quarter, half- or one-year. The following typical problems take place in such kind of environments:
-Employees often are not communicated properly, so they don’t clearly understand what exactly and how will affect the final score. They can apply a lot of effort to have a good score, but surprisingly can receive a bad one at the end of the cycle.
-The employees try to hack the system and their goal now is to have a good performance review which could be not related directly to the company goals. 
+1. Employees often are not communicated properly, so they don’t clearly understand what exactly and how will affect the final score. They can apply a lot of effort to have a good score, but surprisingly can receive a bad one at the end of the cycle.
+2. The employees try to hack the system and their goal now is to have a good performance review which could be not related directly to the company goals. 
 
 To avoid these kinds of problems it proposes to find a way how the performance of any engineer can be assessed instantly at any moment. If any engineer could clearly understand how a single task contributes to their performance, they can see a path to succeed. Make the performance metric clear to engineers. Performance should be a continuous function, but not points taken once per cycle. Forming a clear guidance for the performance function trends and measuring the performance based on day-to-day activity will allow to eliminate the stress, uncertainty and false goals. Build the process where every engineer understands their score at any particular moment.
+
+### §37.1. Descriptive feedback on a regular basis
+Descriptive feedback given on the regular basis helps people to understand how their efforts are aligned with the project goals. 
+
+Descriptive feedback is specific information, in the form of written comments or verbal conversations, that help the learner understand what she or he needs to do in order to improve. Descriptive feedback given to an employee helps the employee to understand what is aligned and what is not with the vector of the project development. Such kind of feedback is more effective than an assessment of the job results. It contributes to intrinsic motivation.
 
 ## §38. Nothing is done in spare time
 Any activity should be planned and nothing has 0 cost. 
