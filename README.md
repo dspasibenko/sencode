@@ -19,7 +19,7 @@ I am sorry about it. The first paragraphs of each article contains the idea. All
 ### I got the idea, can I contribute?
 Sure you can. Feel free to create a PR with the change and we will discuss it. The list of the contributors will be in [this file.](AUTHORS.md)
 
-### I have some arguments, how I can tell you about them?
+### I have some arguments, how can I tell you about them?
 Open a PR or an issue and let's exchange by opinions there. 
 
 ## §1. The quality of a source code
