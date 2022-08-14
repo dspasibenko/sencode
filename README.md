@@ -153,6 +153,11 @@ Big and complex systems can be decomposed to small and simple sub-systems and ev
 
 Never try to design the complex system from scratch. Better to have a vision and the high-level design, which is open for the changes. By delivering and testing different pieces and components in a time the plan can be changed.
 
+### §19.1 Complexity in the software development
+In software development, complexity can be defined as a characteristic that depends on a number of components, their connections, branches, etc.
+
+In general, complexity characterizes the behavior of a system or model whose components interact in multiple ways and follow local rules, leading to nonlinearity, randomness, collective dynamics, hierarchy, and emergence. For designing and building software, we need to reduce the number of dependencies on every software component. Generally speaking, we have to reduce the number of components and connections between them, which can be achieved via building abstractions. 
+
 ## §20. Source code granularity/decomposition
 Source code should be delivered in a way that any independent piece (component)  of it can be written in several hours, maximum 2 days by an engineer. 
 
